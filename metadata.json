@@ -1,0 +1,18 @@
+{
+  "name": "silverstripe-hunspellnz",
+  "version": "1.0.0",
+  "author": "SilverStripe Ltd",
+  "license": "BSD-3-Clause",
+  "summary": "Hunspell package focused on New Zealand language sets",
+  "source": "https://github.com/andrewandante/puppet-hunspellnz",
+  "project_page": "https://github.com/andrewandante/puppet-hunspellnz",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    }
+  ],
+  "tags": ["tools", "hunspell", "maori", "spellcheck" ]
+}
