@@ -1,4 +1,4 @@
-class hunspell (
+define hunspell (
 	$ensure = 'present',
 ){
 
