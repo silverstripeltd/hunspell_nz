@@ -4,10 +4,14 @@ class hunspell::install inherits hunspell {
 
     package { "hunspell":
       ensure => installed
-    } -> package { "hunspell-en-us":
+    }
+
+    package { "hunspell-en-us":
       ensure  => installed,
       require => Package["hunspell"],
-    } -> package { "myspell-en-gb":
+    }
+
+    package { "myspell-en-gb":
       ensure  => installed,
       require => Package["hunspell"],
     }
