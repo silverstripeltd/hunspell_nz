@@ -6,6 +6,7 @@
   "summary": "Hunspell package focused on New Zealand language sets",
   "source": "https://github.com/andrewandante/puppet-hunspell",
   "project_page": "https://github.com/andrewandante/puppet-hunspell",
+  "dependencies": [],
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",
