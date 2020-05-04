@@ -1,4 +1,4 @@
-class hunspell (
+class hunspell_nz (
 	$ensure = 'present',
 ){
 
