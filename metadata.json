@@ -1,17 +1,17 @@
 {
-  "name": "andrewandante-hunspell",
+  "name": "hunspell-nz",
   "version": "1.0.0",
   "author": "SilverStripe Ltd",
   "license": "BSD-3-Clause",
   "summary": "Hunspell package focused on New Zealand language sets",
-  "source": "https://github.com/andrewandante/puppet-hunspell",
-  "project_page": "https://github.com/andrewandante/puppet-hunspell",
+  "source": "https://github.com/silverstripeltd/hunspell_nz",
+  "project_page": "https://github.com/silverstripeltd/hunspell_nz",
   "dependencies": [],
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
-        "8"
+        "10"
       ]
     }
   ],
