@@ -15,9 +15,8 @@ class hunspell_nz (
 		group   => 'root',
 		mode    => '0644',
 		recurse => true,
-		source  => 'puppet:///modules/hunspell/dictionaries/',
+		source  => 'puppet:///modules/hunspell_nz/dictionaries/',
 		require => Package['hunspell'],
 	}
-
 
 }
