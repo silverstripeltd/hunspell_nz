@@ -5,9 +5,16 @@ class hunspell_nz (
 	package {
 		'hunspell':	ensure => installed;
 		'hunspell-en-us':	ensure  => installed;
-		'myspell-en-gb':	ensure  => installed;
 	}
-
+	if $facts['lsbdistcodename'] == 'buster' {
+		package {
+			'hunspell-en-gb':	ensure  => installed;
+		}
+	}else{
+		package {
+			'myspell-en-gb':	ensure  => installed;
+		}
+	}
 	# NZ Dictionaries
 	file { '/usr/share/hunspell/':
 		ensure  => directory,
